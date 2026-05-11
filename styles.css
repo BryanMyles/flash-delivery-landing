@@ -291,6 +291,10 @@ body {
         text-align: center;
     }
 
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+
     .hero-content h1 {
         font-size: 2rem;
     }
@@ -333,7 +337,7 @@ body {
     }
 
     .nav-links a {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
     }
 
     .hero-content h1 {
