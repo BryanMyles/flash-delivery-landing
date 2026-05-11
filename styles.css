@@ -62,22 +62,26 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #1a2a4e 0%, #2c3e50 100%);
+    background: linear-gradient(135deg, rgba(26, 42, 78, 0.7) 0%, rgba(44, 62, 80, 0.7) 100%),
+                url('https://images.unsplash.com/photo-1609437281059-6e276e42b48e?w=1200&h=600&fit=crop') center/cover;
     color: white;
     padding: 8rem 0;
     text-align: center;
+    background-attachment: fixed;
 }
 
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
     animation: slideInDown 0.8s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content p {
     font-size: 1.3rem;
     margin-bottom: 2rem;
     animation: slideInUp 0.8s ease;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .cta-button {
@@ -293,6 +297,10 @@ body {
 
     .nav-links a {
         font-size: 0.9rem;
+    }
+
+    .hero {
+        background-attachment: scroll;
     }
 
     .hero-content h1 {
